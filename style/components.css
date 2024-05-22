@@ -39,11 +39,23 @@
 
     font: 500 1em Exo;
     letter-spacing: 0.1em;
+
+    transition: 300ms;
+}
+
+.menu__item:hover {
+    background-color: white;
+    color: #3f9cc9;
 }
 
 .menu__item a {
+    transition: 300ms;
     text-decoration: none;
     color: white;
+}
+
+.menu__item a:hover {
+    color: #3f9cc9;
 }
 
 @media(min-width: 720px) {
